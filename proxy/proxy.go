@@ -16,7 +16,7 @@ func (x *CompanyX) Employ(uid int) {
 }
 
 type Proxy struct {
-	c CompanyX
+	c *CompanyX
 }
 
 // 可以控制对真实对象的访问（比如条件检测）或实现一些附加操作，对扩展开放，对修改封闭
