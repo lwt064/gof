@@ -21,7 +21,7 @@ func (v *Video) GetVideo() error {
 type Count struct {
 	ZanCnt      int64
 	CommentCnt  int64
-	CollenctCnt int64
+	CollentCnt  int64
 }
 
 func (c *Count) GetCountByID(id int64) (*Count, error) {
